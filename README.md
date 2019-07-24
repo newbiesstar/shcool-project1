@@ -1,2 +1,2 @@
 # shcool-project1
-lalala~
+this repository is for my school and my team
