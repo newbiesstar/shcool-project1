@@ -1,0 +1,46 @@
+hostapd-wpe  此軟體包含hostapd 以及 freeRadius (authentication server)
+	https://github.com/OpenSecurityResearch/hostapd-wpe
+	
+	在building部分
+	apt-get install libssl-dev 改成 apt-get install libssl1.0-dev
+	如果打前項的話會下載到較新的版本導致之後安裝問題
+
+
+
+wiki eap 講解
+	https://en.wikipedia.org/wiki/Extensible_Authentication_Protocol#IEEE_802.1X
+
+
+wiki 802.1x 講解
+	https://en.wikipedia.org/wiki/IEEE_802.1X
+
+wiki password authentication protocol 講解
+	https://en.wikipedia.org/wiki/Password_Authentication_Protocol
+
+wiki challenge-handshake authentication protocol 講解
+	https://en.wikipedia.org/wiki/Challenge-Handshake_Authentication_Protocol
+
+wiki peap 講解
+	https://en.wikipedia.org/wiki/Protected_Extensible_Authentication_Protocol
+	
+	這裡只要大概知道peap多了tls就好
+
+
+
+wiki tls 講解
+	https://en.wikipedia.org/wiki/Transport_Layer_Security
+
+
+
+本次實驗為針對mschap所以可以先了解何謂pap以及chap，再去理解chap與mschap和mschapv2的差別
+
+rfc2433 microsoft ppp chap extensions, version 1 細部結構
+	https://tools.ietf.org/html/rfc2433
+
+rfc2759 microsoft ppp chap extensions, version 2 細部結構
+	https://tools.ietf.org/html/rfc2759
+
+
+
+asleap 說明 mschap的弱點以及如何利用字典攻擊破解密碼
+	https://www.willhackforsushi.com/code/asleap/2.2/README
