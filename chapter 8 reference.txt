@@ -1,46 +1,50 @@
-hostapd-wpe  ¦¹³nÅé¥]§thostapd ¥H¤Î freeRadius (authentication server)
+hostapd-wpe  æ­¤è»Ÿé«”åŒ…å«hostapd ä»¥åŠ freeRadius (authentication server)
 	https://github.com/OpenSecurityResearch/hostapd-wpe
 	
-	¦bbuilding³¡¤À
-	apt-get install libssl-dev §ï¦¨ apt-get install libssl1.0-dev
-	¦pªG¥´«e¶µªº¸Ü·|¤U¸ü¨ì¸û·sªºª©¥»¾É­P¤§«á¦w¸Ë°İÃD
+	åœ¨buildingéƒ¨åˆ†
+	apt-get install libssl-dev æ”¹æˆ apt-get install libssl1.0-dev
+	å¦‚æœæ‰“å‰é …çš„è©±æœƒä¸‹è¼‰åˆ°è¼ƒæ–°çš„ç‰ˆæœ¬å°è‡´ä¹‹å¾Œå®‰è£å•é¡Œ
+
+
+è‡ªå·±æ¶è¨­hostapdä»¥åŠfreeRadiuså…ˆæš«ä¸è€ƒæ…®
+å…ˆä½¿ç”¨å…¶ä»–äººä½œå¥½çš„å·¥å…·
 
 
 
-wiki eap Á¿¸Ñ
+wiki eap è¬›è§£
 	https://en.wikipedia.org/wiki/Extensible_Authentication_Protocol#IEEE_802.1X
 
 
-wiki 802.1x Á¿¸Ñ
+wiki 802.1x è¬›è§£
 	https://en.wikipedia.org/wiki/IEEE_802.1X
 
-wiki password authentication protocol Á¿¸Ñ
+wiki password authentication protocol è¬›è§£
 	https://en.wikipedia.org/wiki/Password_Authentication_Protocol
 
-wiki challenge-handshake authentication protocol Á¿¸Ñ
+wiki challenge-handshake authentication protocol è¬›è§£
 	https://en.wikipedia.org/wiki/Challenge-Handshake_Authentication_Protocol
 
-wiki peap Á¿¸Ñ
+wiki peap è¬›è§£
 	https://en.wikipedia.org/wiki/Protected_Extensible_Authentication_Protocol
 	
-	³o¸Ì¥u­n¤j·§ª¾¹Dpeap¦h¤Ftls´N¦n
+	é€™è£¡åªè¦å¤§æ¦‚çŸ¥é“peapå¤šäº†tlså°±å¥½
 
 
 
-wiki tls Á¿¸Ñ
+wiki tls è¬›è§£
 	https://en.wikipedia.org/wiki/Transport_Layer_Security
 
 
 
-¥»¦¸¹êÅç¬°°w¹ïmschap©Ò¥H¥i¥H¥ı¤F¸Ñ¦ó¿×pap¥H¤Îchap¡A¦A¥h²z¸Ñchap»Pmschap©Mmschapv2ªº®t§O
+æœ¬æ¬¡å¯¦é©—ç‚ºé‡å°mschapæ‰€ä»¥å¯ä»¥å…ˆäº†è§£ä½•è¬‚papä»¥åŠchapï¼Œå†å»ç†è§£chapèˆ‡mschapå’Œmschapv2çš„å·®åˆ¥
 
-rfc2433 microsoft ppp chap extensions, version 1 ²Ó³¡µ²ºc
+rfc2433 microsoft ppp chap extensions, version 1 ç´°éƒ¨çµæ§‹
 	https://tools.ietf.org/html/rfc2433
 
-rfc2759 microsoft ppp chap extensions, version 2 ²Ó³¡µ²ºc
+rfc2759 microsoft ppp chap extensions, version 2 ç´°éƒ¨çµæ§‹
 	https://tools.ietf.org/html/rfc2759
 
 
 
-asleap »¡©ú mschapªº®zÂI¥H¤Î¦p¦ó§Q¥Î¦r¨å§ğÀ»¯}¸Ñ±K½X
+asleap èªªæ˜ mschapçš„å¼±é»ä»¥åŠå¦‚ä½•åˆ©ç”¨å­—å…¸æ”»æ“Šç ´è§£å¯†ç¢¼
 	https://www.willhackforsushi.com/code/asleap/2.2/README
